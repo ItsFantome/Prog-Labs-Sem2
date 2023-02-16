@@ -7,10 +7,10 @@ public class PlayerController : MonoBehaviour
     public float x;
     public float y;
     public float moveSpeed;
-    public float jumpVelocity = 40f;
+    public float jumpVelocity = 10f;
     private Rigidbody rigidBody;
 
-    public float distanceToGround = 1f;
+    public float distanceToGround = 1.25f;
     public LayerMask groundLayer;
 
     public Vector2 turn;
